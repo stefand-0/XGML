@@ -34,7 +34,7 @@ python xgmlparse.py filename.xgm
 
 # What 3D printers does it support?
 
-I'm a WASP enthusiast, though it supports any 3D printer that can process standard Marlin G-Code.
+I'm a WASP enthusiast. so the coordinate system is exactly like the one in their printers, though it supports any 3D printer that can process standard Marlin G-Code.
 
 ** Two things to keep in mind...
 
