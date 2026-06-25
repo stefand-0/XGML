@@ -43,7 +43,7 @@ I'm a WASP enthusiast. so the coordinate system is exactly like the one in their
 • Some printers require complex start codes, e.g. Bambu Lab X1C
 
 # Try it out!
-Here, I've written some XGML code (also found here at test/layer.xgml)
+Here, I've written some XGML code (also found here at test/layers.xgml)
 
 ```xml
 <module XGML_3D_TEST_PRINT
