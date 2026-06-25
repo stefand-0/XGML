@@ -31,3 +31,17 @@ python3 xgmlparse.py filename.xgml
 python xgmlparse.py filename.xgm
 # File is found with the same name, with the .gcode extension.
 ```
+
+# What 3D printers does it support?
+
+I'm a WASP enthusiast, though it supports any 3D printer that can process standard Marlin G-Code.
+
+** Two things to keep in mind...
+
+• Print bed size might not match up to the scripts coordinates. Double check before loading onto the printer.
+
+• Some printers require complex start codes, e.g. Bambu Lab X1C
+
+# License
+
+This project is licensed under the Apache License 2.0. Feel free to use, modify, distribute, and build upon this core engine for both personal and commercial 3D printing workflows! See the source headers and the LICENSE for more details.
