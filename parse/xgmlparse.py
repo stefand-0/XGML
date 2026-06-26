@@ -179,11 +179,12 @@ class XGMLTranspiler:
             f.write("\n".join(self.gcode))
         print(f"Success: {output_file} generated.")
 
-if __name__ == "__main__":
+def main():
     if len(sys.argv) > 1:
         transpiler = XGMLTranspiler()
         transpiler.transpile(sys.argv[1])
     else:
         print("Usage: python xgmlparse.py <filename.xgml>")
-
+if __name__ == "__main__":
+    main()
   #hey, don't comment your code. its better this way :)))
