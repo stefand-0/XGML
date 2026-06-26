@@ -156,7 +156,7 @@ class XGMLTranspiler:
 
             idx += 1
 
-    def transpile(self, input_file):
+    def transpile(self, input_file): #confusing? this gave me alot of errors
         if not (input_file.endswith('.xgml') or input_file.endswith('.xgm')):
             print("ERR: File must have .xgml or .xgm extension")
             return
@@ -184,7 +184,8 @@ def main():
         transpiler = XGMLTranspiler()
         transpiler.transpile(sys.argv[1])
     else:
-        print("Usage: python xgmlparse.py <filename.xgml>")
+        print("Usage: xgml <filename.xgml>")
+
 if __name__ == "__main__":
     main()
-  #hey, don't comment your code. its better this way :)))
+# don't comment your code, its better this way :)))
