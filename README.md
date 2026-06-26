@@ -15,8 +15,7 @@ Markup languages are *really* lightweight, declarative, and serve their simple p
 
 Run:
 ```bash
-git clone https://github.com/stefand-0/XGML.git
-cd XGML
+pip install xgml==1.0.0
 ```
 
 * Transpiling XGML scripts
