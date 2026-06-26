@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "xgml"
 version = "1.0.0"
 authors = [
-  { name="Your Name", email="your.email@example.com" },
+  { name="stefand-0", email="stefandragan95@gmail.com" },
 ]
 description = "Extensible G-Code Markup Language Transpiler"
 readme = "README.md"
@@ -20,4 +20,5 @@ classifiers = [
 xgml = "xgmlparse:main"
 
 [tool.setuptools]
+package-dir = {"" = "parse"}
 py-modules = ["xgmlparse"]
