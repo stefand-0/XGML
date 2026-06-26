@@ -25,9 +25,7 @@ If you want an easier experience, just copy the `xgmlparse.py` file over to your
 Run:
 
 ```bash
-python3 xgmlparse.py filename.xgml
-(OR)
-python xgmlparse.py filename.xgm
+xgml FILENAME.xgml
 # File is found with the same name, with the .gcode extension.
 ```
 
