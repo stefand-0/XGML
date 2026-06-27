@@ -26,6 +26,9 @@ Run:
 
 ```bash
 xgml FILENAME.xgml
+# -- OR --
+python3 xgmlparse.py FILENAME.xgml 
+# Second option will be applied if you cloned this repository.
 # File is found with the same name, with the .gcode extension.
 ```
 
