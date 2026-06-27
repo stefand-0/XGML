@@ -20,7 +20,7 @@ pip install xgml
 
 * Transpiling XGML scripts
 
-If you want an easier experience, just copy the `xgmlparse.py` file over to your preferred directory.
+If cloning from GitHub, just copy the `parse/xgmlparse.py` file over to your preferred directory.
 
 Run:
 
